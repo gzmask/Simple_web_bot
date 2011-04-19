@@ -1,0 +1,26 @@
+spded_go.rb is the script that should run
+Before execution, please open ur_goq.rb and us_goq.rb, 
+and update the current_term variable according to these examples:
+
+U of S
+201009 2010 fall
+201101 2011 winter
+201105 2011 spring
+201107 2011 summer
+
+U of R
+201130 2011 Fall
+201125 Non-Credit 2011 Spring/Summer
+201120 2011 Spring/Summer
+201115 Non-Credit 2011 Winter
+201110 2011 Winter 
+201035 Non-Credit 2010 Fall 
+201030 2010 Fall 
+
+
+To installed dependencies on MacOSX:
+brew install libxml2
+brew link libxml2
+gem update --system
+gem install nokogiri
+gem install mechanize
